@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this survey or roadmap, please cite it using the metadata below."
+title: "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling"
+type: article
+authors:
+  - family-names: Wu
+    given-names: Keming
+  - family-names: Yang
+    given-names: Zuhao
+  - family-names: Zhang
+    given-names: Kaichen
+  - family-names: Wang
+    given-names: Shizun
+  - family-names: Zhu
+    given-names: Haowei
+  - name: "and others"
+year: 2026
+repository-code: "https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation"
+abstract: "A living survey and roadmap that organizes visual generation progress from atomic mapping to conditional, in-context, agentic, and world-modeling generation."

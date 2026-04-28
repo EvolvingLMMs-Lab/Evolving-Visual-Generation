@@ -1,0 +1,59 @@
+name: Paper suggestion
+description: Suggest a paper, benchmark, dataset, model, or tool for the roadmap.
+title: "[Paper] "
+labels:
+  - paper-suggestion
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: "Paper / benchmark / dataset title"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: "arXiv, project page, GitHub, or DOI"
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      placeholder: "2026"
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Taxonomy / position
+        - Model architecture
+        - Training / data / alignment
+        - Conditional generation
+        - Image editing
+        - Unified multimodal generation
+        - Evaluation / benchmark / reward model
+        - Embodied generation / world model
+        - Agentic generation / tools
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is it relevant?
+      placeholder: "Briefly explain how this work fits the roadmap or what gap it fills."
+    validations:
+      required: true
+  - type: textarea
+    id: bibtex
+    attributes:
+      label: BibTeX
+      render: bibtex
+      placeholder: "@article{...}"
+    validations:
+      required: false
