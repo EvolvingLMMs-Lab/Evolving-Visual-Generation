@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visual Generation Roadmap | Paper Explorer</title>
+  <meta name="description" content="A minimalist retrieval-style project page for Visual Generation in the New Era: from atomic mapping to agentic world modeling." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Visual Generation Roadmap home">
+      <span class="brand-mark">VG</span>
+      <span>Visual Generation Roadmap</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#stress-tests">Stress Tests</a>
+      <a href="https://arxiv.org/abs/2604.28185">Paper</a>
+      <a href="references/citation.bib">BibTeX</a>
+      <a href="https://huggingface.co/papers/2604.28185">HF Daily Paper</a>
+      <a href="https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Dynamic Project Page | Roadmap Paper Explorer</p>
+        <h1>Visual Generation in the New Era</h1>
+        <p class="subtitle">An evolution from atomic mapping to agentic world modeling.</p>
+        <p class="hero-text">
+          This roadmap organizes modern visual generation around capabilities: controllable composition,
+          persistent context, agentic interaction, and causal world simulation. Use the dynamic explorers
+          below to retrieve papers, tasks, categories, and stress-test cases from the full roadmap bibliography.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://arxiv.org/abs/2604.28185">Read the Paper</a>
+          <a class="button" href="#explorer">Explore Papers</a>
+          <a class="button" href="#stress-tests">Browse Stress Tests</a>
+          <a class="button" href="references/citation.bib">Download BibTeX</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Roadmap summary">
+        <div class="metric-grid">
+          <div><strong id="paper-count">0</strong><span>BibTeX papers indexed</span></div>
+          <div><strong id="category-count">0</strong><span>roadmap sections</span></div>
+          <div><strong>5</strong><span>capability levels</span></div>
+        </div>
+        <img src="assets/figures/overview/fig_5levels_overview.jpg" alt="Five-level taxonomy of visual generation" />
+      </aside>
+    </section>
+
+    <section class="section-shell compact">
+      <div class="section-heading">
+        <p class="eyebrow">Roadmap Lens</p>
+        <h2>From prettier images to verifiable visual intelligence</h2>
+      </div>
+      <div class="level-grid">
+        <article><span>L1</span><h3>Atomic Generation</h3><p>One-shot plausible rendering from prompts or latent codes.</p></article>
+        <article><span>L2</span><h3>Conditional Generation</h3><p>Faithful control under layouts, references, and explicit constraints.</p></article>
+        <article><span>L3</span><h3>In-Context Generation</h3><p>Multi-reference, multi-condition, and long-context visual coherence.</p></article>
+        <article><span>L4</span><h3>Agentic Generation</h3><p>Planning, tool use, verification, rollback, and iterative refinement.</p></article>
+        <article><span>L5</span><h3>World Modeling</h3><p>Causal, physical, and action-conditioned simulation of visual worlds.</p></article>
+      </div>
+    </section>
+
+    <section class="section-shell visual-strip">
+      <div class="section-heading">
+        <p class="eyebrow">Figures</p>
+        <h2>Key maps from the roadmap</h2>
+      </div>
+      <div class="figure-grid">
+        <figure>
+          <img src="assets/figures/overview/fig_research_landscape.png" alt="Research landscape" />
+          <figcaption>Research landscape</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/figures/method/fig_modeling_paradigms.png" alt="Modeling paradigms" />
+          <figcaption>Modeling paradigms</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/figures/training/fig_training_pipeline.png" alt="Training pipeline" />
+          <figcaption>Training pipeline</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="explorer" class="section-shell explorer">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">Paper Explorer</p>
+          <h2>Search the full roadmap bibliography</h2>
+        </div>
+        <p class="muted">Retrieval is fully client-side. Try paper titles, authors, BibTeX keys, methods, tasks, or capability words.</p>
+      </div>
+
+      <div class="search-panel">
+        <label class="search-box" for="search-input">
+          <span>Search</span>
+          <input id="search-input" type="search" placeholder="e.g. Qwen-Image, diffusion, DreamBooth, world model, DPO, evaluation" autocomplete="off" />
+        </label>
+        <div class="quick-row" id="quick-queries" aria-label="Suggested searches"></div>
+      </div>
+
+      <div class="filter-layout">
+        <aside class="filters" aria-label="Paper filters">
+          <h3>Categories</h3>
+          <div id="category-filters" class="filter-stack"></div>
+          <h3>Tasks</h3>
+          <div id="tag-filters" class="chip-stack"></div>
+          <button id="clear-filters" class="text-button" type="button">Clear filters</button>
+        </aside>
+
+        <div class="results-panel">
+          <div class="results-toolbar">
+            <p id="results-summary">Loading papers...</p>
+            <select id="sort-select" aria-label="Sort papers">
+              <option value="relevance">Sort by relevance</option>
+              <option value="year-desc">Newest first</option>
+              <option value="year-asc">Oldest first</option>
+              <option value="title">Title A-Z</option>
+            </select>
+          </div>
+          <div id="paper-results" class="paper-grid"></div>
+          <p id="empty-state" class="empty-state" hidden>No papers found. Try a broader keyword or clear filters.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="stress-tests" class="section-shell stress-explorer">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">Stress-Test Explorer</p>
+          <h2>When "looks right" is not enough</h2>
+        </div>
+        <p class="muted">Browse the in-the-wild probes from the roadmap: spatial constraints, physical causality, multi-turn drift, human-centric editing, restoration, real-world design, and structured vision tasks.</p>
+      </div>
+
+      <div class="stress-controls">
+        <label class="search-box" for="stress-search">
+          <span>Search cases</span>
+          <input id="stress-search" type="search" placeholder="e.g. physics, OCR, city design, multi-turn drift, GPT-Image-2" autocomplete="off" />
+        </label>
+        <div>
+          <span class="control-label">Dimension</span>
+          <div id="stress-filters" class="quick-row" aria-label="Stress-test filters"></div>
+        </div>
+      </div>
+
+      <div class="stress-toolbar">
+        <p id="stress-summary">Loading stress tests...</p>
+        <button id="clear-stress" class="text-button" type="button">Clear stress filters</button>
+      </div>
+      <div id="stress-results" class="stress-case-grid"></div>
+    </section>
+  </main>
+
+  <div id="stress-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close stress test details">Close</button>
+      <div id="modal-content"></div>
+    </article>
+  </div>
+
+  <footer class="site-footer">
+    <p>If you find this roadmap useful, please cite <a href="https://arxiv.org/abs/2604.28185">arXiv:2604.28185</a>.</p>
+  </footer>
+
+  <script src="data/papers.js"></script>
+  <script src="data/stressTests.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
