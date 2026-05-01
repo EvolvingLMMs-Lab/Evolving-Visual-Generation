@@ -23,6 +23,8 @@ This repository hosts a living roadmap on modern visual generation. The project 
 
 > This manuscript is a preprint and an evolving roadmap. Its taxonomy, references, and viewpoints may be corrected, updated, or revised as the field develops.
 
+A companion **interactive project page** is available at [evolvinglmms-lab.github.io/Evolving-Visual-Generation](https://evolvinglmms-lab.github.io/Evolving-Visual-Generation/), which carries a richer visualization of the taxonomy, the modern research landscape, and the full gallery of stress-test cases. The roadmap is intended to grow with the community: if you have a paper that should be included, or notice a missing reference or mis-classification, please feel free to open a pull request or an issue, and we will keep updating both the survey and the project page accordingly. If you find any part of this work useful or interesting, we would also be very happy if you consider [citing it](#citation).
+
 
 ## Core Thesis
 
@@ -65,6 +67,7 @@ The roadmap argues that progress is no longer a single axis of image fidelity. I
 | --- | --- |
 | Research landscape | ![Research landscape](assets/figures/overview/fig_research_landscape.png) |
 | Modeling paradigms | ![Modeling paradigms](assets/figures/method/fig_modeling_paradigms.png) |
+| Data pipeline | ![Data pipeline](assets/figures/training/data_pipeline_v2.png) |
 | Training pipeline | ![Training pipeline](assets/figures/training/fig_training_pipeline.png) |
 
 ## Stress-Test Examples
@@ -77,8 +80,13 @@ Standard metrics can miss failures that matter. This repo includes selected qual
 | Metro map | Graph/topology following | Produces a convincing map but violates transfer and crossing constraints. |
 | Isometric tile map | Coordinate grounding | Places objects in nearby but incorrect grid cells. |
 | Fluid dynamics | Causal state transition | Must distinguish plausible appearance from physically faithful intervention. |
+| Multi-turn editing | Persistent identity and constraint memory across turns | Drifts in identity, layout, or previously satisfied constraints as edits accumulate; later turns silently undo earlier ones. |
+| Long-form text rendering | Exact symbolic rendering and typography | Generates near-correct glyphs with character-level errors, swapped digits, or inconsistent fonts in long strings. |
+| Counting and quantity | Numerical grounding | Produces a visually plausible scene with the wrong number of instances when the prompt specifies an exact count. |
+| Occlusion and depth ordering | 3D-consistent compositional reasoning | Renders objects with mutually inconsistent occlusion or depth cues that violate a single 3D layout. |
+| Compositional binding | Attribute-to-entity binding | Swaps or merges colors, materials, and parts across multiple bound entities in the same scene. |
 
-See [`docs/stress_tests.md`](docs/stress_tests.md) for details.
+The full gallery, including more multi-turn editing cases, is hosted on the [project page](https://evolvinglmms-lab.github.io/Evolving-Visual-Generation/#stress-tests); see [`docs/stress_tests.md`](docs/stress_tests.md) for additional details.
 
 ## Reference Organization
 
@@ -218,7 +226,7 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + **Synthesizing Natural Language to Visualization (NL2VIS) Benchmarks from NL2SQL Benchmarks** (SIGMOD, 2021) — Natural-language-to-visualization benchmark synthesis.
 + **DataVisT5: A Pre-Trained Language Model for Jointly Understanding Text and Data Visualization** (ICDE, 2025) — Unified model for text and data visualization understanding.
 
-Community suggestions are welcome through the issue template in this repository.
+Community suggestions are welcome — please open a pull request or an issue with the paper you would like to see added, and we will keep folding new entries into the roadmap.
 
 ## Citation
 
