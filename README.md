@@ -5,7 +5,7 @@
 
 **Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling**
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2604.28185-b31b1b)](https://arxiv.org/abs/2604.28185) [![Website](https://img.shields.io/badge/Website-Evolving-Visual-Generation-1f6feb?logo=googlechrome&logoColor=white)](https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation) [![Daily Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Daily-Paper-FFD21E)](https://huggingface.co/papers/2604.28185)  <!-- omit in toc -->
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2604.28185-b31b1b)](https://arxiv.org/abs/2604.28185)  [![Daily Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Daily-Paper-FFD21E)](https://huggingface.co/papers/2604.28185)  <!-- omit in toc -->
 
 <!-- [![@_akhaliq](https://img.shields.io/badge/%40__akhaliq-6366F1?logo=x&logoColor=white&labelColor=000000)](https://x.com/_akhaliq/status/2048805921485148284) [![@dotey](https://img.shields.io/badge/%40dotey-6366F1?logo=x&logoColor=white&labelColor=000000)](https://x.com/dotey/status/2049187740084731991) -->
 
