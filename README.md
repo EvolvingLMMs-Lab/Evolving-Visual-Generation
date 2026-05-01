@@ -21,7 +21,7 @@
 
 This repository hosts a living roadmap on modern visual generation. The project organizes recent progress in image generation and editing around a capability-oriented view of **visual intelligence**: moving from one-shot appearance synthesis toward controllable composition, persistent context, agentic interaction, and causal world modeling.
 
-A companion [**Visual Generation Roadmap**](https://evolvinglmms-lab.github.io/Evolving-Visual-Generation/) project page is available, which carries a richer visualization of the taxonomy, the modern research landscape, and the full gallery of stress-test cases. The roadmap is intended to grow with the community: if you have a paper that should be included, or notice a missing reference or mis-classification, please feel free to open a pull request or an issue, and we will keep updating both the survey and the project page accordingly. If you find any part of this work useful or interesting, we would also be very happy if you consider [citing it](#citation).
+A companion [**Visual Generation Roadmap**](https://evolvinglmms-lab.github.io/Evolving-Visual-Generation/) website is available, which carries a richer visualization of the taxonomy, the modern research landscape, and the full gallery of stress-test cases. The roadmap is intended to grow with the community: if you have a paper that should be included, or notice a missing reference or mis-classification, please feel free to open a pull request or an issue, and we will keep updating both the survey and the website accordingly. If you find any part of this work useful or interesting, we would also be very happy if you consider [citing it](#citation).
 
 
 ## Core Thesis
