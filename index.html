@@ -44,6 +44,7 @@
         <div class="metric-grid">
           <div><strong id="paper-count">0</strong><span>BibTeX papers indexed</span></div>
           <div><strong id="category-count">0</strong><span>roadmap sections</span></div>
+          <div><strong id="task-count">0</strong><span>task clusters</span></div>
           <div><strong>5</strong><span>capability levels</span></div>
         </div>
         <img src="assets/figures/overview/fig_5levels_overview.jpg" alt="Five-level taxonomy of visual generation" />
@@ -102,6 +103,25 @@
         <div class="quick-row" id="quick-queries" aria-label="Suggested searches"></div>
       </div>
 
+      <div class="insight-grid" aria-label="Bibliography insights">
+        <section class="insight-card">
+          <div>
+            <h3>Year Distribution</h3>
+            <p>Click a year to focus the paper list.</p>
+          </div>
+          <div id="year-bars" class="year-bars"></div>
+        </section>
+        <section class="insight-card">
+          <div>
+            <h3>Task Map</h3>
+            <p>Click a task cluster to retrieve related papers.</p>
+          </div>
+          <div id="task-cloud" class="task-cloud"></div>
+        </section>
+      </div>
+
+      <div id="active-filters" class="active-filters" hidden></div>
+
       <div class="filter-layout">
         <aside class="filters" aria-label="Paper filters">
           <h3>Categories</h3>
@@ -123,6 +143,7 @@
           </div>
           <div id="paper-results" class="paper-grid"></div>
           <p id="empty-state" class="empty-state" hidden>No papers found. Try a broader keyword or clear filters.</p>
+          <button id="load-more" class="button load-more" type="button" hidden>Load more papers</button>
         </div>
       </div>
     </section>
@@ -160,6 +181,14 @@
     <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
       <button class="modal-close" type="button" data-close-modal aria-label="Close stress test details">Close</button>
       <div id="modal-content"></div>
+    </article>
+  </div>
+
+  <div id="paper-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-paper-modal></div>
+    <article class="modal-card paper-modal-card" role="dialog" aria-modal="true" aria-labelledby="paper-modal-title">
+      <button class="modal-close" type="button" data-close-paper-modal aria-label="Close paper details">Close</button>
+      <div id="paper-modal-content"></div>
     </article>
   </div>
 
