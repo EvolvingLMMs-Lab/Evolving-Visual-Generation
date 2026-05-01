@@ -1,4 +1,4 @@
-# Evolving Visual Generation
+# Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling
 
 
 ![Five-level taxonomy of visual generation](assets/figures/overview/fig_5levels_overview.jpg)
