@@ -109,7 +109,7 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + [**GEMS: Agent-Native Multimodal Generation with Memory and Skills**](https://arxiv.org/abs/2603.28088) (arXiv, 2026) — Agent-native multimodal generation with memory and skills.
 + [**Gen-Searcher: Reinforcing Agentic Search for Image Generation**](https://arxiv.org/abs/2603.28767) (arXiv, 2026) — Search-augmented agentic image generation.
 + [**Jarvisart: Liberating human artistic creativity via an intelligent photo retouching agent**](https://arxiv.org/abs/2506.17612) (arXiv, 2025) — Agent-to-software protocol for professional retouching.
-+ **Genie: Generative Interactive Environments** (Proceedings of the 41st Interna..., 2024) — Latent-action interactive environments from Internet videos.
++ **Genie: Generative Interactive Environments** (ICML, 2024) — Latent-action interactive environments from Internet videos.
 + **Genie 2: A Large-Scale Foundation World Model** (Google DeepMind Blog Post, 2024) — Large-scale foundation world model for interactive visual environments.
 + [**Diffusion models are real-time game engines**](https://arxiv.org/abs/2408.14837) (arXiv, 2024) — Real-time neural game engine using diffusion dynamics.
 + **Learning interactive real-world simulators** (ICLR, 2024) — Universal interactive simulator learned from real-world experience.
@@ -157,22 +157,22 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + [**Sharegpt-4o-image: Aligning multimodal models with gpt-4o-level image generation**](https://arxiv.org/abs/2506.18095) (arXiv, 2025) — GPT-4o-level image-generation distillation dataset.
 + [**Pico-banana-400k: A large-scale dataset for text-guided image editing**](https://arxiv.org/abs/2510.19808) (arXiv, 2025) — Large-scale text-guided image-editing dataset.
 + **Ultraedit: Instruction-based fine-grained image editing at scale** (NeurIPS, 2024) — Instruction-based fine-grained editing at scale.
-+ **Anyedit: Mastering unified high-quality image editing for any idea** (Proceedings of the Computer Vis..., 2025) — Unified high-quality image editing across task categories.
++ **Anyedit: Mastering unified high-quality image editing for any idea** (CVPR, 2025) — Unified high-quality image editing across task categories.
 + [**Imgedit: A unified image editing dataset and benchmark**](https://arxiv.org/abs/2505.20275) (arXiv, 2025) — Unified image-editing dataset and benchmark.
-+ **Editworld: Simulating world dynamics for instruction-following image editing** (Proceedings of the 33rd ACM Int..., 2025) — World-dynamics simulation for instruction-following image editing.
++ **Editworld: Simulating world dynamics for instruction-following image editing** (ACM MM, 2025) — World-dynamics simulation for instruction-following image editing.
 + [**Textatlas5m: A large-scale dataset for dense text image generation**](https://arxiv.org/abs/2502.07870) (arXiv, 2025) — Dense text-image generation dataset and evaluation resource.
 + [**Flux-reason-6m & prism-bench: A million-scale text-to-image reasoning dataset and comprehensive benchmark**](https://arxiv.org/abs/2509.09680) (arXiv, 2025) — Reasoning-oriented T2I dataset and PRISM benchmark.
 + **Geneval: An object-focused framework for evaluating text-to-image alignment** (NeurIPS, 2023) — Object-focused text-to-image alignment benchmark.
 + **T2i-compbench: A comprehensive benchmark for open-world compositional text-to-image generation** (NeurIPS, 2023) — Compositional text-to-image benchmark.
 + [**GenExam: A Multidisciplinary Text-to-Image Exam**](https://arxiv.org/abs/2509.14232) (arXiv, 2025) — Multidisciplinary exam-style text-to-image benchmark.
 + [**OneIG-Bench: Omni-dimensional Nuanced Evaluation for Image Generation**](https://arxiv.org/abs/2506.07977) (arXiv, 2025) — Omnidimensional image-generation evaluation benchmark.
-+ **Chatbot arena: An open platform for evaluating llms by human preference** (Forty-first International Confe..., 2024) — Human-preference arena methodology for model comparison.
++ **Chatbot arena: An open platform for evaluating llms by human preference** (ICML, 2024) — Human-preference arena methodology for model comparison.
 
 ### Sec. 6: Applications and Evolving Frontiers
 
 + [**ReCon: Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection**](https://arxiv.org/abs/2510.15783) (arXiv, 2025) — Region-controllable data augmentation and layout control.
 + [**CreatiLayout: Siamese Multimodal Diffusion Transformer for Creative Layout-to-Image Generation**](https://arxiv.org/abs/2412.03859) (arXiv, 2025) — Creative layout-to-image generation with multimodal diffusion transformers.
-+ [**Efficient Multi-Instance Generation with Janus-Pro-Dirven Prompt Parsing**](https://arxiv.org/abs/2503.21069) (arXiv, 2025) — Multi-instance generation via prompt parsing and lightweight adaptation.
++ [**Efficient Multi-Instance Generation with Janus-Pro-Driven Prompt Parsing**](https://arxiv.org/abs/2503.21069) (arXiv, 2025) — Multi-instance generation via prompt parsing and lightweight adaptation.
 + **OminiControl: Minimal and Universal Control for Diffusion Transformer** (ICCV, 2025) — Minimal universal control for diffusion transformers.
 + **Easycontrol: Adding efficient and flexible control for diffusion transformer** (ICCV, 2025) — Efficient flexible condition control for diffusion transformers.
 + [**PosterVerse: A Full-Workflow Framework for Commercial-Grade Poster Generation with HTML-Based Scalable Typography**](https://arxiv.org/abs/2601.03993) (arXiv, 2026) — HTML-based full-workflow commercial poster generation.
@@ -180,23 +180,23 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + [**Glyph-ByT5-v2: A Strong Aesthetic Baseline for Accurate Multilingual Visual Text Rendering**](https://arxiv.org/abs/2406.10208) (arXiv, 2024) — Accurate multilingual visual text rendering baseline.
 + [**EasyText: Controllable Diffusion Transformer for Multilingual Text Rendering**](https://arxiv.org/abs/2505.24417) (arXiv, 2025) — Controllable multilingual text rendering with diffusion transformers.
 + [**UniGlyph: Unified Segmentation-Conditioned Diffusion for Precise Visual Text Synthesis**](https://arxiv.org/abs/2507.00992) (arXiv, 2025) — Segmentation-conditioned precise glyph synthesis.
-+ [**ReChar: Revitalising Characters with Structure Preserved and User-Specified Aesthetic Enhancements**](https://doi.org/10.1145/3757376.3771409) (Proceedings of the SIGGRAPH Asi..., 2025) — Structure-preserving artistic character generation.
++ [**ReChar: Revitalising Characters with Structure Preserved and User-Specified Aesthetic Enhancements**](https://doi.org/10.1145/3757376.3771409) (SIGGRAPH Asia, 2025) — Structure-preserving artistic character generation.
 + [**ReasonEdit: Towards Reasoning-Enhanced Image Editing Models**](https://arxiv.org/abs/2511.22625) (arXiv, 2025) — Reasoning-enhanced image editing.
 + [**Lego-Edit: A General Image Editing Framework with Model-Level Bricks and MLLM Builder**](https://arxiv.org/abs/2509.12883) (arXiv, 2025) — Model-level bricks and MLLM builder for general image editing.
 + [**Step1X-Edit: A Practical Framework for General Image Editing**](https://arxiv.org/abs/2504.17761) (arXiv, 2025) — Practical general-purpose image-editing framework.
 + [**Droid: A large-scale in-the-wild robot manipulation dataset**](https://arxiv.org/abs/2403.12945) (arXiv, 2024) — Large-scale in-the-wild robot manipulation dataset.
-+ **Open x-embodiment: Robotic learning datasets and rt-x models: Open x-embodiment collaboration 0** (2024 IEEE International Confere..., 2024) — Cross-embodiment robotics dataset and RT-X models.
++ **Open x-embodiment: Robotic learning datasets and rt-x models: Open x-embodiment collaboration 0** (ICRA, 2024) — Cross-embodiment robotics dataset and RT-X models.
 + [**Video prediction policy: A generalist robot policy with predictive visual representations**](https://arxiv.org/abs/2412.14803) (arXiv, 2024) — Robot policy with predictive visual representations.
-+ **Cot-vla: Visual chain-of-thought reasoning for vision-language-action models** (Proceedings of the Computer Vis..., 2025) — Visual chain-of-thought reasoning for VLA models.
++ **Cot-vla: Visual chain-of-thought reasoning for vision-language-action models** (CVPR, 2025) — Visual chain-of-thought reasoning for VLA models.
 + **Learning universal policies via text-guided video generation** (NeurIPS, 2023) — Universal policies learned through text-guided video generation.
 
 ### Sec. 7: In-the-Wild Stress Tests
 
-+ **Low-complexity single-image super-resolution based on nonnegative neighbor embedding** (Proceedings of the British Mach..., 2012) — Classical super-resolution benchmark used for low-level restoration.
++ **Low-complexity single-image super-resolution based on nonnegative neighbor embedding** (BMVC, 2012) — Classical super-resolution benchmark used for low-level restoration.
 + [**Deep retinex decomposition for low-light enhancement**](https://arxiv.org/abs/1808.04560) (arXiv, 2018) — Low-light enhancement benchmark.
 + **A database of human segmented natural images and its application to evaluating segmentation algorithms and measuring ecological statistics** (ICCV, 2001) — Berkeley segmentation dataset used in denoising/restoration evaluation.
-+ **Deep joint rain detection and removal from a single image** (Proceedings of the IEEE confere..., 2017) — Rain removal benchmark for deraining stress tests.
-+ **Deep multi-scale convolutional neural network for dynamic scene deblurring** (Proceedings of the IEEE confere..., 2017) — Dynamic-scene deblurring benchmark.
++ **Deep joint rain detection and removal from a single image** (CVPR, 2017) — Rain removal benchmark for deraining stress tests.
++ **Deep multi-scale convolutional neural network for dynamic scene deblurring** (CVPR, 2017) — Dynamic-scene deblurring benchmark.
 
 ### Sec. 8: Future Directions
 
@@ -207,7 +207,7 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + **Recurrent world models facilitate policy evolution** (NeurIPS, 2018) — Early recurrent world model for policy evolution.
 + **Mastering diverse control tasks through world models** (Nature, 2025) — Generalist world-model RL across diverse control tasks.
 + **A path towards autonomous machine intelligence** (Open Review, 2022) — Predictive world-modeling agenda for autonomous intelligence.
-+ **Genie: Generative Interactive Environments** (Proceedings of the 41st Interna..., 2024) — Generative interactive environments from unlabeled videos.
++ **Genie: Generative Interactive Environments** (ICML, 2024) — Generative interactive environments from unlabeled videos.
 + **Diffusion for world modeling: Visual details matter in Atari** (NeurIPS, 2024) — Diffusion-based Atari world modeling.
 + **Oasis: A universe in a transformer** (Technical Report, 2024) — Transformer-based interactive Minecraft-like world model.
 + **GameGen-X: Interactive open-world game video generation** (ICLR, 2025) — Interactive open-world game video generation.
@@ -216,7 +216,7 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + **MoDora: Tree-Based Semi-Structured Document Analysis System** (SIGMOD, 2026) — Tree-based semi-structured document analysis.
 + [**FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data**](https://arxiv.org/abs/2509.02473) (arXiv, 2025) — Data-agent benchmark over heterogeneous analytical queries.
 + **Synthesizing Natural Language to Visualization (NL2VIS) Benchmarks from NL2SQL Benchmarks** (SIGMOD, 2021) — Natural-language-to-visualization benchmark synthesis.
-+ **DataVisT5: A Pre-Trained Language Model for Jointly Understanding Text and Data Visualization** (41st IEEE International Confere..., 2025) — Unified model for text and data visualization understanding.
++ **DataVisT5: A Pre-Trained Language Model for Jointly Understanding Text and Data Visualization** (ICDE, 2025) — Unified model for text and data visualization understanding.
 
 Community suggestions are welcome through the issue template in this repository.
 
@@ -238,4 +238,4 @@ If you find this roadmap useful, please cite the project. A formal arXiv citatio
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=EvolvingLMMs-Lab/Evolving-Visual-Generation&type=Date)](https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=EvolvingLMMs-Lab/Evolving-Visual-Generation&type=Date)](https://star-history.com/#EvolvingLMMs-Lab/Evolving-Visual-Generation&Date)
