@@ -50,6 +50,8 @@ const els = {
   modalContent: document.querySelector('#modal-content'),
   paperModal: document.querySelector('#paper-modal'),
   paperModalContent: document.querySelector('#paper-modal-content'),
+  citationCopy: document.querySelector('#copy-citation'),
+  citationBibtex: document.querySelector('#citation-bibtex'),
 };
 
 const normalize = (value) => (value || '').toString().toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
@@ -526,6 +528,14 @@ els.paperModal.querySelectorAll('[data-close-paper-modal]').forEach((button) => 
 els.loadMore.addEventListener('click', () => {
   state.visiblePapers += PAGE_SIZE;
   renderResults();
+});
+
+els.citationCopy?.addEventListener('click', async () => {
+  await copyText(els.citationBibtex?.textContent.trim() || '');
+  els.citationCopy.textContent = 'Copied';
+  window.setTimeout(() => {
+    els.citationCopy.textContent = 'Copy BibTeX';
+  }, 1000);
 });
 
 document.addEventListener('keydown', (event) => {
