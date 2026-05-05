@@ -65,8 +65,9 @@ The roadmap argues that progress is no longer a single axis of image fidelity. I
 | --- | --- |
 | Research landscape | ![Research landscape](assets/figures/overview/fig_research_landscape.png) |
 | Modeling paradigms | ![Modeling paradigms](assets/figures/method/fig_modeling_paradigms.png) |
-| Data pipeline | ![Data pipeline](assets/figures/training/data_pipeline_v2.png) |
+| Closed-source agentic systems | ![Closed-source agentic systems](assets/figures/method/fig_closed_source_agent.png) |
 | Training pipeline | ![Training pipeline](assets/figures/training/fig_training_pipeline.png) |
+| Data pipeline | ![Data pipeline](assets/figures/training/data_pipeline_v2.png) |
 
 ## Stress-Test Examples
 
