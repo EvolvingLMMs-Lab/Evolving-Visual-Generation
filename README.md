@@ -174,6 +174,7 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + [**GenExam: A Multidisciplinary Text-to-Image Exam**](https://arxiv.org/abs/2509.14232) (arXiv, 2025) — Multidisciplinary exam-style text-to-image benchmark.
 + [**OneIG-Bench: Omni-dimensional Nuanced Evaluation for Image Generation**](https://arxiv.org/abs/2506.07977) (arXiv, 2025) — Omnidimensional image-generation evaluation benchmark.
 + **Chatbot arena: An open platform for evaluating llms by human preference** (ICML, 2024) — Human-preference arena methodology for model comparison.
++ **[MultiBanana: A Challenging Benchmark for Multi-Reference Text-to-Image Generation](https://arxiv.org/abs/2511.22989)** (CVPR, 2026) - Multi-reference image generation evaluation benchmark.
 
 ### Sec. 6: Applications and Evolving Frontiers
 
