@@ -230,7 +230,7 @@ Community suggestions are welcome — please open a pull request or an issue wit
 
 ## Citation
 
-If you find this roadmap useful, please cite the project. A formal arXiv citation will be added once available.
+If you find this roadmap useful, please cite the project.
 
 ```bibtex
 @article{wu2026visual,
