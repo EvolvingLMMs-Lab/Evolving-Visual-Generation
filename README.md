@@ -122,7 +122,7 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + **Learning interactive real-world simulators** (ICLR, 2024) — Universal interactive simulator learned from real-world experience.
 
 ### Sec. 3: Modeling Paradigms and Architectures
-
++ [**Moonworks Lunara: Modeling Artistic Intelligence**](https://arxiv.org/abs/2609.22272) (arXiv, 2026) — Diffusion Mixture Transformer for artistic text-to-image generation with iterative data curation. [Dataset](https://huggingface.co/datasets/moonworks/lunara-art-eval).
 + [**Generative Adversarial Networks**](https://arxiv.org/abs/1406.2661) (arXiv, 2014) — Foundational adversarial generator-discriminator formulation.
 + [**Score-Based Generative Modeling through Stochastic Differential Equations**](https://arxiv.org/abs/2011.13456) (arXiv, 2021) — Score-based generative modeling via stochastic differential equations.
 + [**Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation**](https://arxiv.org/abs/2406.06525) (arXiv, 2024) — Llama-style autoregressive image generation at scale.
@@ -157,7 +157,8 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + [**Transition Matching Distillation for Fast Video Generation**](https://arxiv.org/abs/2601.09881) (arXiv, 2026) — Transition-matching distillation for fast video generation.
 
 ### Sec. 5: Data, Benchmarks, and Infrastructure
-
++ [**Moonworks Lunara Aesthetic I: An Art Dataset**](https://arxiv.org/abs/2601.07941) (arXiv, 2026) — 2,000 image–prompt pairs with human-refined prompts for style conditioning and aesthetic evaluation. [Dataset](https://huggingface.co/datasets/moonworks/lunara-aesthetic).
++ [**Moonworks Lunara Aesthetic II: An Image Variation Dataset**](https://arxiv.org/abs/2602.01666) (arXiv, 2026) — 2,854 anchor-linked variation pairs for identity preservation and contextual consistency. [Dataset](https://huggingface.co/datasets/moonworks/lunara-aesthetic-image-variations).
 + **Laion-5b: An open large-scale dataset for training next generation image-text models** (NeurIPS, 2022) — Open large-scale image-text corpus for foundation training.
 + **COYO-700M: Image-Text Pair Dataset** (Paper, 2022) — Web-scale image-text pair dataset.
 + **Datacomp: In search of the next generation of multimodal datasets** (NeurIPS, 2023) — Data filtering and composition benchmark for multimodal datasets.
