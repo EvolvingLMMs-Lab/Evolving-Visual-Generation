@@ -167,6 +167,7 @@ The full bibliography is maintained in [`references/citation.bib`](references/ci
 + **Anyedit: Mastering unified high-quality image editing for any idea** (CVPR, 2025) — Unified high-quality image editing across task categories.
 + [**Imgedit: A unified image editing dataset and benchmark**](https://arxiv.org/abs/2505.20275) (arXiv, 2025) — Unified image-editing dataset and benchmark.
 + **Editworld: Simulating world dynamics for instruction-following image editing** (ACM MM, 2025) — World-dynamics simulation for instruction-following image editing.
++ [**InfoEdit: Probing Global Layout Reasoning in Infographic Editing**](https://arxiv.org/abs/2609.33286) (EMNLP, 2026) — Infographic editing benchmark where edits require layout reflow; evaluates pixel-level and code-level editing.
 + [**Textatlas5m: A large-scale dataset for dense text image generation**](https://arxiv.org/abs/2502.07870) (arXiv, 2025) — Dense text-image generation dataset and evaluation resource.
 + [**Flux-reason-6m & prism-bench: A million-scale text-to-image reasoning dataset and comprehensive benchmark**](https://arxiv.org/abs/2509.09680) (arXiv, 2025) — Reasoning-oriented T2I dataset and PRISM benchmark.
 + **Geneval: An object-focused framework for evaluating text-to-image alignment** (NeurIPS, 2023) — Object-focused text-to-image alignment benchmark.
